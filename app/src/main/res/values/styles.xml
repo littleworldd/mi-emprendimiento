@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rosa">#D81B60</color>
+    <color name="fondo">#FFF7F9</color>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/rosa</item>
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="android:colorAccent">@color/rosa</item>
+        <item name="android:colorPrimary">@color/rosa</item>
+    </style>
+</resources>

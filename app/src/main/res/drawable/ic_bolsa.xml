@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- asa de la bolsa -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,50 L44,42 A10,10 0 0 1 64,42 L64,50" />
+    <!-- bolsa -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M35,47 L73,47 L70.5,79 Q70.3,82 67.5,82 L40.5,82 Q37.7,82 37.5,79 Z" />
+    <!-- corazón -->
+    <path android:fillColor="#D81B60"
+        android:pathData="M54,75 L46.5,67.5 A4.6,4.6 0 0 1 54,61.2 A4.6,4.6 0 0 1 61.5,67.5 Z" />
+</vector>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Mi Emprendimiento</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div id="splash">
+  <div class="sp-in">
+    <div class="sp-ic">🌸</div>
+    <div class="sp-t">Bienvenida, <span id="spNombre">Susana</span></div>
+    <div class="sp-s">Tu emprendimiento, en orden</div>
+  </div>
+</div>
+
+<main id="view"></main>
+
+<nav id="tabs">
+  <button data-act="tab" data-tab="inicio"><span class="ic">🏠</span>Inicio</button>
+  <button data-act="tab" data-tab="ventas"><span class="ic">🛍️</span>Ventas</button>
+  <button data-act="tab" data-tab="gastos"><span class="ic">🧾</span>Gastos</button>
+  <button data-act="tab" data-tab="reportes"><span class="ic">📊</span>Reportes</button>
+  <button data-act="tab" data-tab="mas"><span class="ic">☰</span>Más</button>
+</nav>
+
+<div id="sheetBg"><div id="sheet"></div></div>
+<div id="dlg"></div>
+<div id="toast"></div>
+<input type="file" id="fileRest" accept=".json,application/json" hidden>
+
+<script src="xlsx.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
